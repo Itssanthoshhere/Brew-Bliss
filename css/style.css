@@ -426,6 +426,16 @@ header .navbar {
     font-size: var(--font-size-m);
 }
 
+.contact-section .contact-info-list .contact-link {
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.contact-section .contact-info-list .contact-link:hover {
+    color: var(--secondary-color);
+}
+
 .contact-section .contact-form .form-input {
     width: 100%;
     height: 50px;
@@ -502,6 +512,19 @@ header .navbar {
 .footer-section .policy-text .separator {
     margin: 0 5px;
     color: var(--white-color);
+}
+
+
+/* GitHub link styling */
+.footer-section .copyright-text .github-link {
+    font-weight: var(--font-weight-normal);
+    text-decoration: underline;
+    color: var(--white-color);
+    transition: 0.3s ease;
+}
+
+.footer-section .copyright-text .github-link:hover {
+    color: var(--secondary-color);
 }
 
 
@@ -667,3 +690,4 @@ header .navbar {
         gap: 20px;
     }
 }
+
